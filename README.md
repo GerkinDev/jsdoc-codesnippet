@@ -2,7 +2,25 @@
 
 Replace placeholder in your text with named code snippets
 
+## Installation & configuration
+
+The simplest way to install *JSDoc-CodeSnippet* is probably by using **NPM**:
+```shell
+npm install --save-dev jsdoc-codesnippet
+```
+Why `--save-dev`? Well, to add it in your `package.json` file, and documenting things should be done only on test/dev environments, not production...
+
+
+Once installed, you can add the plugin to your [JSDoc configuration file](http://usejsdoc.org/about-configuring-jsdoc.html):```json
+{
+    "plugins": ["node_modules/jsdoc-codesnippet"]
+}
+```
+
+*TODO: install globally?*
+
 ## Example usage
+
 In your source code, use the `@snippetStart` & `@snippetEnd` doclets to mark the beginning and the end of your snippets:
 
 ```javascript
