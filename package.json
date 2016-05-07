@@ -19,5 +19,7 @@
     "url": "https://github.com/Nihilivin/jsdoc-codesnippet/issues"
   },
   "homepage": "https://github.com/Nihilivin/jsdoc-codesnippet",
-  "dependencies": {}
+  "dependencies": {
+    "js-beautify": "^1.6.2"
+  }
 }

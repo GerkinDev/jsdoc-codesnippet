@@ -1,4 +1,4 @@
-'use strict';
+/** Can't "use strict" as ES6 is not enabled by default in NodeJS: http://stackoverflow.com/questions/22603078/syntaxerror-use-of-const-in-strict-mode */
 
 const beautify = require('js-beautify').js_beautify;
 const logger = require('jsdoc/util/logger');
