@@ -11,7 +11,8 @@ npm install --save-dev jsdoc-codesnippet
 Why `--save-dev`? Well, to add it in your `package.json` file, and documenting things should be done only on test/dev environments, not production...
 
 
-Once installed, you can add the plugin to your [JSDoc configuration file](http://usejsdoc.org/about-configuring-jsdoc.html):```json
+Once installed, you can add the plugin to your [JSDoc configuration file](http://usejsdoc.org/about-configuring-jsdoc.html):
+```json
 {
     "plugins": ["node_modules/jsdoc-codesnippet"]
 }
