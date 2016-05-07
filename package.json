@@ -1,25 +1,29 @@
 {
-  "name": "jsdoc-codesnippet",
-  "version": "0.1.4",
-  "description": "A JSDoc plugin that allow you to include named code snippets in your docblocks descriptions",
-  "main": "jsdoc-codesnippet.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Nihilivin/jsdoc-codesnippet.git"
-  },
-  "keywords": [
-    "jsdoc",
-    "snippet",
-    "description",
-    "plugin"
-  ],
-  "author": "Alexandre Germain",
-  "license": "Apache v2.0",
-  "bugs": {
-    "url": "https://github.com/Nihilivin/jsdoc-codesnippet/issues"
-  },
-  "homepage": "https://github.com/Nihilivin/jsdoc-codesnippet",
-  "dependencies": {
-    "js-beautify": "^1.6.2"
-  }
+	"name": "jsdoc-codesnippet",
+	"version": "0.1.4",
+	"description": "A JSDoc plugin that allow you to include named code snippets in your docblocks descriptions",
+	"main": "lib/jsdoc-codesnippet.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Nihilivin/jsdoc-codesnippet.git"
+	},
+	"scripts": {
+		"compile": "babel --optional runtime -d lib/ src/",
+		"prepublish": "npm run compile"
+	},
+	"keywords": [
+		"jsdoc",
+		"snippet",
+		"description",
+		"plugin"
+	],
+	"author": "Alexandre Germain",
+	"license": "Apache v2.0",
+	"bugs": {
+		"url": "https://github.com/Nihilivin/jsdoc-codesnippet/issues"
+	},
+	"homepage": "https://github.com/Nihilivin/jsdoc-codesnippet",
+	"dependencies": {
+		"js-beautify": "^1.6.2"
+	}
 }
